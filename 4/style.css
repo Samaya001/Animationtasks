@@ -1,0 +1,59 @@
+
+    
+
+.hi{
+    display: flex;
+    position: absolute;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.box1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease;
+    position: relative;
+}
+.box2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+    position: relative;
+
+}
+.box3{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+    position: relative;
+}
+.box4{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    transition: all 1s ease;
+    position: relative;
+}
+.container0{
+    display: flex;
+    justify-content: center;
+    
+}
+.container0:hover .box1{
+    transform: rotate(90deg);
+    transform-origin:top left;
+}
+.container0:hover .box2 {
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+.container0:hover .box3{
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+.container0:hover .box4{
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}

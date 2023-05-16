@@ -1,0 +1,11 @@
+h1{
+    color: green;
+}
+li {
+    transition: all 1s linear;
+}
+li:hover{
+    font-size: 50px;
+    color: green;
+
+}

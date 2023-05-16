@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+}
+.container2{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+}
+.box1{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    animation-name: box1;
+    animation-duration: 1s;
+}
+.box2{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    animation-name: box1;
+    animation-timing-function:step-end;
+    animation-duration:2s;
+
+   
+    
+}
+@keyframes box1{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 150px;
+
+    }
+    100%{
+        width: 100px;
+    }
+}
+@keyframes box1{
+    0%{
+        width: 100px;
+    }
+    25%{
+        width: 150px;
+
+    }
+    50%{
+        width: 175px;
+    }
+    75%{
+        width: 150px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+

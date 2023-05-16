@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    padding: 50px;
+    transition: 1s linear ;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    padding: 50px;
+    transition: 1s linear ;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    padding: 50px;
+    transition: 1s linear ;
+}
+h1{
+text-align: center;
+padding-top: 30px;
+}
+body{
+    background-color: goldenrod;
+}
+.box1:hover{
+    transform: rotateX(180deg)
+}
+.box2:hover{
+    transform: rotateY(180deg)
+}
+.box3:hover{
+    transform: rotateZ(180deg)
+}

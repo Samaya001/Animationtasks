@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: redbox;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes redbox {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}

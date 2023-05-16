@@ -1,0 +1,24 @@
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s linear;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 10PX;
+    transition: all 1s linear;
+    transition-delay: 1.5s;
+    
+}
+.container:hover > div{
+    width: 300px;
+}
+.container:hover > .red {
+    transition-property: width 3s linear;
+}
+.container:hover > .blue {
+    transition-property: width 3s linear;
+}

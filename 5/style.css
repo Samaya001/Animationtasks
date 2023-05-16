@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    color: green;
+}
+h4{
+    text-align: center;
+}
+.box1{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.box2{
+    animation-name: texts ;
+animation-duration:  2s;
+animation-delay: s;
+position: relative;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes text{
+    0%{left: 200px;
+
+    }
+    100%{
+        left: 0px;
+    }
+    }
+    @keyframes texts{
+        0%{left: 0px;
+    
+        }
+        100%{
+            left: 200px;
+        }
+        }
+        .box3{animation-name: word ;
+            animation-duration:  2s;
+            animation-delay: s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            
+
+        }
+        .box4{animation-name: words ;
+            animation-duration:  2s;
+            animation-delay: s;
+            position: relative;
+            animation-iteration-count: infinite;
+            
+
+        }
+        @keyframes word {
+            0%{
+                left: 0px;
+
+            }
+            50%{
+                left: 200px;
+            }
+            100%{
+                left: 0px;
+            }
+            
+        }
+        @keyframes words{
+            0%{
+                left:0px;
+            }
+            50%{
+                left:200px;
+            }
+            100%{
+                left:0px;
+            }
+        }
+

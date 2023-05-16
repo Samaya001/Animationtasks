@@ -1,0 +1,41 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    animation-name: circle;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes circle{
+    0%{
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+        
+    }
+    25%{background-color: red;
+         left: 200px;
+         top: 0px;
+         border-radius: 0px;
+
+    }
+    50%{ background-color: green;
+        left: 200px;
+        top: 200px;
+        border-radius: 50px;
+
+    }
+    75%{
+        background-color: yellow;
+        left: 0px;
+        top: 200px;
+        border-radius: 0px;
+    }
+    100%{
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+}
